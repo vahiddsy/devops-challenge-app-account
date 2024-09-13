@@ -1,0 +1,24 @@
+IMAGE=dome/account-manager
+TAG=v0.2
+HOST=account-manager.example.com
+# Address of Host (e.g., Public IP)
+PORT=8095
+# Working port of WebServer
+AUTH_SERVER_ADDR=auth_app
+# Address of Authentication Service (e.g., Name of service in the container)
+AUTH_SERVER_PORT=2000
+# Working port of Authentication Service
+MONGO_SERVER_ADDR=mongodb_mongodb
+# Address of MongoDB
+MONGO_SERVER_PORT=27017
+# Working port of MongoDB
+DB_USER=root
+# Username for connecting to MongoDB
+DB_PASS=password
+# Password for connecting to MongoDB
+CALLBACK_URL=https://example.com
+# URL for redirect after Payment callback
+PAYMENT_SERVER_URL=https://example.com/
+# Address of Payment SOAP Service
+MERCHANT_ID=
+# An ID received from Zarinpal
